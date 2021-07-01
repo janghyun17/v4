@@ -23,7 +23,8 @@ body {background:#222;font-family:'Noto Sans KR';font-size:16px;font-weight:500;
 
 #wrap {position:relative;margin:10px auto 50px auto;}
 #wrap h1 {padding:50px 30px 0 30px;color:#fff;font-size:25px;line-height:29px;text-align:center;transition:all 0.4s;}
-.list {margin:50px 15px;overflow:hidden;}
+#wrap h1 img {height:32px;transition:height 0.4s;}
+.list {margin:30px 15px;overflow:hidden;}
 .list .tit {margin:14px 7px;color:#fff;font-size:17px;font-weight:500;line-height:24px;}
 .list ul {display:flex;flex-wrap:wrap}
 .list .li {width:calc(100% - 14px);margin:20px 7px;}
@@ -32,15 +33,19 @@ body {background:#222;font-family:'Noto Sans KR';font-size:16px;font-weight:500;
 
 @media all and (min-width:600px) {
 #wrap h1 {padding:70px 50px 10px 50px;font-size:29px;line-height:33px;}
+#wrap h1 img {height:42px;}
+.list {margin:40px 20px;}
 .list .li {width:calc(50% - 14px);}
 }
 	
 @media all and (min-width:1000px) {
 #wrap h1 {padding:90px 70px 30px 70px;font-size:34px;line-height:37px;}
+#wrap h1 img {height:52px;}
 .list .li {width:calc(33.3% - 20px);margin:30px 10px;}
 }
 	
-@media all and (min-width:1420px) {
+@media all and (min-width:1440px) {
+#wrap h1 img {height:62px;}
 .list {max-width:1400px;margin-right:auto;margin-left:auto;}
 }
 </style>
@@ -49,7 +54,7 @@ body {background:#222;font-family:'Noto Sans KR';font-size:16px;font-weight:500;
 <body>
 <!-- wrap -->
 <div id="wrap">
-	<h1>보이스4</h1>
+	<h1><img src="./voice4.svg" alt="보이스4"></h1>
 	<!-- list -->
 	<div class="list">
 		<ul>
